@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="title-card">
+            <h4 class="title"><span>Weather</span></h4>
+            <p class="det">Get the Weather details of any city by just clicking here!!</p>
+        </div>
+        <div class="card">
+            <input id="input" class="inputbox" type="text" placeholder="Enter your City">
+            <button id="btn" class="sbtn">Go</button>
+        </div>
+        <div id="outputCard" class="output">
+            <div class="cityNameCard">
+                <p id="city-name"></p>
+                <p id="countryName"></p>
+            </div>
+            <div class="tempCard">
+                <p id="temp"></p><sup id="sup"></sup>
+            </div>
+            <p id="loc-time"></p>
+            <div id="weather-icon">
+                <img id="icon" src="" alt="weather-icon" />
+            </div>
+        </div>
+        <button id="theme-toggle" class="theme-toggle-btn">Dark Mode</button>
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+</html>

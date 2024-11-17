@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #4a6f4c;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-card {
+    background-color:#4CAF50 ;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.det {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card {
+    margin: 20px 0;
+}
+
+.inputbox {
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.sbtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.sbtn:hover {
+    background-color: #45a049;
+}
+
+.output {
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cityNameCard, .tempCard {
+    margin-bottom: 20px;
+}
+
+#temp {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#sup {
+    font-size: 24px;
+}
+
+#weather-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+#theme-toggle {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#theme-toggle:hover {
+    background-color: #45a049;
+}
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.container.dark-mode {
+    background-color: #333333;
+}
+
+.title-card.dark-mode {
+    background-color: #444444;
+}
+
+.card.dark-mode {
+    background-color: #555555;
+}
+
+.output.dark-mode {
+    background-color: #444444;
+}
+
+.sbtn.dark-mode {
+    background-color: #444444;
+    border-color: #666666;
+}
+
+.sbtn.dark-mode:hover {
+    background-color: #555555;
+}
+
+#weather-icon.dark-mode {
+    filter: invert(1);
+}
